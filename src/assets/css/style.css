@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.user-form label {
+    display: block;
+}
+
+.user-form input[type="text"] {
+    width: 100%;
+    margin: 5px 0 15px;
+    padding: 15px 15px 15px 30px;
+    border: solid 1px rgb(100, 100, 100);
+    border-radius: 100px;
+    font-size: 1rem;
+}
+
+.recent-searches {
+    margin-bottom: 30px;
+}
+
+.recent-searches h4 {
+    margin-bottom: 0;
+}
+
+.recent-searches ul {
+    margin-top: 5px;
+}
+
+.recent-searches li {
+    color: blue;
+}
+.recent-searches li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
